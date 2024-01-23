@@ -26,10 +26,6 @@ const Page = ({ children }: Props) => {
     }
   }
 
-  if (!isAuthenticated) {
-    return <Navigate to="/login" />;
-  }
-
   return (
     <Box
       sx={{
